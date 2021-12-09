@@ -1,0 +1,4 @@
+1.If you have your image in css folder , then sometimes you can not call it using 
+url(CSS/background.jpg);
+solution: just call it by name. 
+url(background.jpg);
