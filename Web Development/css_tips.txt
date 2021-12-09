@@ -2,3 +2,13 @@
 url(CSS/background.jpg);
 solution: just call it by name. 
 url(background.jpg);
+
+2.Fixing a learge image in center with gradient color 
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(background.jpg);
+  background-size: cover;
+  background-position: center;
+}
